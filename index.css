@@ -1,0 +1,16 @@
+body{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    background-image: linear-gradient( rgb(180, 180, 209),rgb(237, 243, 248));
+}
+#nav{
+    background-attachment: fixed;
+}
+#nav a:link{
+    text-decoration: none;
+}
+@media screen and (max-width:800px) {
+    #image {width: 80%; height: 50%;}
+}
